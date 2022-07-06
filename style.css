@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Argentum Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* General */
+
+h1 {
+    margin-bottom: 4rem;
+    color: #272727;
+}
+
+p {
+    color: #272727;
+}
+
+.marge40 {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #272727;
+}
+
+nav {
+    padding: 0 0 1% 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* General end */
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+#titleText {
+    font-size: 75px;
+}
+
+.textPurple {
+    color: #AD92E8;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+}
+
+.mainBar {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.leftHeader {
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rightHeader {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.rightHeader img {
+    width: 60%;
+    border-radius: 40%;
+}
+
+.headerBio {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ellipse {
+    width: 30px;
+    height: 30px;
+    border: 3px #272727 solid;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bioPosition {
+    width: 500px;
+}
+
+.bioPosition p {
+    margin-top: 40px;
+}
+
+.bioPosition h2 {
+    margin-top: 0.5%;
+}
+
+.foreground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Follow me on section */
+
+.follow {
+    display: flex;
+    flex-direction: row;
+}
+
+#followMeText {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bottomHeader {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+}
+
+.linkText {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.linkIconPosition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+.linkIcon img {
+    width: 100%;
+}
+
+#githubLogo {
+    margin-right: 50px;
+}
+
+/* Blobs */
+
+.pedals {
+    position: absolute;
+    width: 7%;
+}
+
+#blob1 {
+    top: 2%;
+    left: 1%;
+}
+
+#blob2 {
+    top: 20%;
+    left: 70%;
+}
+
+#blob3 {
+    top: 10%;
+    left: 90%;
+    /* overflow: hidden; */
+}
+
+/* BLOB BIJ DE FOTO */
+#blob4 {
+    top: 65%;
+    left: 75%;
+    width: 17%;
+}
+
+#blob5 {
+    top: 25%;
+    left: 45%;
+    width: 20%;
+}
