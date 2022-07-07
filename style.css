@@ -164,7 +164,7 @@ nav {
 
 /* Blobs */
 
-.pedals {
+.petals {
     position: absolute;
     width: 7%;
 }
@@ -212,6 +212,7 @@ main {
 .sectie2 {
     display: flex;
     flex-direction: row;
+    height: 100%;
     padding-top: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
@@ -385,7 +386,7 @@ main {
     width: 100%;
     height: 100%;
     /* background-color: red; */
-    background-image: url("assets/diffooze.jpg");
+    background: url("assets/diffooze.jpg");
     background-attachment: fixed;
     background-position: 20% 70%;
     background-repeat: no-repeat;
@@ -395,5 +396,61 @@ main {
 .rightSection4 img {
     width: 100%;
     height: 100%;
-    position: sticky;
+    /* position: sticky; */
+}
+
+
+/* Sectie 5 // Contact Pagina */
+
+.contactSectie {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+    padding: 5%;
+}
+
+.topContactSectie {
+
+    width: 100%;
+    padding: 5% 5% 3% 5%;
+}
+
+.bottomContactSectie {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.bottomLeftContactSectie img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.bottomRightContactSectie {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+/* Petals contact sectie */
+
+.petalsContact {
+    width: 40%;
+}
+
+#blob6 {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+#blob7 {
+    position: absolute;
+    top: 70%;
+    left: 85%;
 }
