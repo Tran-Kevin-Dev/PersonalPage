@@ -44,8 +44,8 @@ nav {
     width: 15%;
 }
 
-#titleText {
-    font-size: 75px;
+.titleText {
+    font-size: 65px;
 }
 
 .textPurple {
@@ -128,6 +128,7 @@ nav {
 .follow {
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
 }
 
 #followMeText {
@@ -250,9 +251,18 @@ main {
     /* background-color: orange; */
 }
 
-.rightHeaderSkills h1,
+.rightHeaderSkills h2,
 .rightHeaderSkills p {
     color: white;
+}
+
+.rightHeaderSkills h2 {
+    margin-bottom: 40px;
+
+}
+
+.rightHeaderSkills p {
+    margin-bottom: 80px;
 }
 
 .buttonSkills a:nth-child(2) {
@@ -298,12 +308,13 @@ main {
     height: 100%;
 }
 
-.rightSection3 h1,
+.rightSection3 h2,
 .rightSection3 p {
     color: white;
 }
 
 .row1Section3 {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -353,7 +364,7 @@ main {
     /* background-color: green; */
 }
 
-.leftSection4 h1,
+.leftSection4 h2,
 .leftSection4 p {
     color: white;
 }
@@ -363,6 +374,7 @@ main {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    margin-top: 50px;
     /* background-color: yellow; */
 }
 
@@ -420,13 +432,15 @@ main {
     z-index: 1;
     /* padding: 0; */
 }
-.sectie5Text{
+
+.sectie5Text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 3;
 }
+
 .sectie5 h2,
 .sectie5 p {
     color: white;
@@ -455,7 +469,7 @@ main {
     flex-direction: column;
     height: 100%;
     /* background-color: white; */
-    padding: 5% 5% 15% 5%;
+    padding: 5% 5% 5% 5%;
     /* z-index: -2; */
 }
 
@@ -488,6 +502,11 @@ main {
     flex-direction: column;
     align-items: left;
     justify-content: space-around;
+}
+
+.bottomRightContactSectie p {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* Petals contact sectie */
@@ -535,7 +554,7 @@ footer p {
 /* Media queries */
 
 @media screen and (max-width: 768px) {
-    #titleText {
+    .titleText {
         font-size: 40px;
     }
 
@@ -545,5 +564,187 @@ footer p {
 
     .mainBar {
         height: auto;
+    }
+
+    .navLinks a {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+    .linkIconPosition {
+        padding: 10px
+    }
+
+    #githubLogo {
+        margin-right: 25px;
+    }
+
+    /* Skills sectie */
+
+    #kevinDiploma {
+        width: 90%;
+    }
+
+    .rightHeaderSkills p {
+        margin-bottom: 50px;
+    }
+
+    .buttonSkills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .buttonSkills a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 250px;
+        height: 80px;
+    }
+
+    .buttonSkills a:nth-child(2) {
+        margin: 20px 0 20px 0;
+    }
+
+    /* Development ervaring */
+
+    .backgroundColorProgram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 50%;
+        width: 70px;
+    }
+
+    .row2Section3 img {
+        width: 50px;
+    }
+
+    /* Design Sectie */
+
+    .backgroundColorDesign {
+        padding: 20px;
+        width: 80px;
+    }
+
+    /* Werkervaring sectie */
+
+    .sectie5 {
+        height: 50vh;
+    }
+
+    .sectie5Text {
+        text-align: center;
+    }
+
+    /* footer */
+
+    footer p {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* LG bootstrap */
+
+@media screen and (max-width: 992px) {
+    .titleText {
+        font-size: 40px;
+    }
+
+    #blob7 {
+        overflow-x: hidden;
+    }
+
+    .mainBar {
+        height: auto;
+    }
+
+    .navLinks a {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+    .linkIconPosition {
+        padding: 10px
+    }
+
+    #githubLogo {
+        margin-right: 25px;
+    }
+
+    /* Skills sectie */
+
+    #kevinDiploma {
+        width: 90%;
+    }
+
+    .rightHeaderSkills p {
+        margin-bottom: 50px;
+    }
+
+    .buttonSkills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .buttonSkills a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 250px;
+        height: 80px;
+    }
+
+    .buttonSkills a:nth-child(2) {
+        margin: 20px 0 20px 0;
+    }
+
+    /* Development ervaring */
+
+    .backgroundColorProgram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 50%;
+        width: 70px;
+    }
+
+    .row2Section3 img {
+        width: 50px;
+    }
+
+    /* Design Sectie */
+
+    .backgroundColorDesign {
+        padding: 20px;
+        width: 80px;
+    }
+
+    /* Werkervaring sectie */
+
+    .sectie5 {
+        height: 50vh;
+    }
+
+    .sectie5Text {
+        text-align: center;
+    }
+
+    /* footer */
+
+    footer p {
+        text-align: center;
+        font-size: 14px;
     }
 }
