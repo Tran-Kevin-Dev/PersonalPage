@@ -279,7 +279,7 @@ main {
 .leftSection3 {
     width: 50%;
     /* height: 100%; */
-    background-image:url("assets/keyboard.jpg") ;
+    background-image: url("assets/keyboard.jpg");
     /* background-color: rebeccapurple; */
 }
 
@@ -403,8 +403,40 @@ main {
     /* position: sticky; */
 }
 
+/* Sectie 5 */
 
-/* Sectie 5 // Contact Pagina */
+.sectie5 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    background-color: #5b4796;
+    /* padding: 0; */
+}
+
+.sectie5 h2,
+.sectie5 p {
+    color: white;
+}
+
+.blob-motion {
+    position: absolute;
+    transform: translateY(-20%);
+    z-index: 0;
+}
+
+.blob-content {
+    z-index: 1;
+}
+
+.blobs {
+    width: 100%;
+    background: url("./blobs.svg") no-repeat bottom / cover;
+}
+
+/* Sectie 6 // Contact Pagina */
 
 .contactSectie {
     position: relative;
@@ -417,7 +449,6 @@ main {
 }
 
 .topContactSectie {
-
     width: 100%;
     padding: 5% 5% 3% 5%;
 }
@@ -430,8 +461,14 @@ main {
     height: 100%;
 }
 
+.bottomLeftContactSectie {
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+}
+
 .bottomLeftContactSectie img {
-    width: 40%;
+    width: 60%;
     border-radius: 50%;
 }
 
@@ -473,6 +510,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 15% 15% 0% 0%;
     /* margin-top: 80px; */
     background-color: #AD92E8;
     /* margin-top: auto; */
@@ -483,21 +521,18 @@ footer p {
 }
 
 
-
-
-
 /* Media queries */
 
-@media screen and (max-width: 850px) {
-    #titleText{
+@media screen and (max-width: 768px) {
+    #titleText {
         font-size: 40px;
     }
 
-    #blob7{
+    #blob7 {
         overflow-x: hidden;
     }
-    
-    .mainBar{
+
+    .mainBar {
         height: auto;
     }
 }

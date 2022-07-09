@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepagina</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>   
   </head>
   <body>
     <!-- Thank you for reading the code :) -->
@@ -148,6 +149,61 @@
           <!-- <img src="assets/ooze.jpg" alt="ooze design photo" /> -->
         </div>
       </div>
+      <section class="sectie5">
+        <div class="marge40"></div>
+        <h2 id="titleText">Werkervaring</h2>
+        <div class="marge40"></div>
+        <p>10 maanden ervaring bij NYBE.</p>
+        <p>Design, agile/scrum , frontend development geleerd.</p>
+        <p>Door de loop van meerdere projecten daadwerkelijk alle theorie in praktijk om kunnen zetten.</p>
+    
+        <svg
+        class="blob-motion"
+        id="visual"
+        viewBox="0 0 960 540"
+        width="960"
+        height="540"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <g transform="translate(450.7256843113689 283.4942824330989)">
+          <path
+            id="blobA1"
+            d="M148.7 -134.9C193.7 -103.7 231.9 -51.9 232.4 0.6C233 53 196.1 106.1 151.1 128.6C106.1 151.1 53 143 -4.4 147.4C-61.8 151.8 -123.5 168.5 -151.2 146C-178.8 123.5 -172.4 61.8 -172.8 -0.4C-173.1 -62.5 -180.3 -124.9 -152.6 -156.1C-124.9 -187.3 -62.5 -187.1 -5.3 -181.8C51.9 -176.5 103.7 -166 148.7 -134.9"
+            fill="#BB004B"
+          ></path>
+        </g>
+        <g
+          transform="translate(509.54377535978017 281.49390864595887)"
+          style="visibility: hidden"
+        >
+          <path
+            id="blobA2"
+            d="M115.4 -137.9C137.9 -92.9 136.4 -46.4 133.6 -2.8C130.8 40.8 126.6 81.6 104.1 118.4C81.6 155.2 40.8 188.1 -8.4 196.5C-57.5 204.8 -115 188.7 -151 151.9C-187 115 -201.5 57.5 -190.8 10.7C-180.1 -36.1 -144.1 -72.1 -108.1 -117.1C-72.1 -162.1 -36.1 -216.1 5.2 -221.2C46.4 -226.4 92.9 -182.9 115.4 -137.9"
+            fill="#BB004B"
+          ></path>
+        </g>
+      </svg>
+
+        <!-- WAVES CURVE -->
+
+        <!-- <?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="visual" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 296.3" style="enable-background:new 0 0 960 296.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5B4796;}
+	.st1{fill:#7156B6;}
+	.st2{fill:#8965D6;}
+</style>
+<path class="st0" d="M0,101.3l32-5c32-5,96-15,160-26.5s128-24.5,192-26.3c64-1.9,128,7.5,192,13s128,7.1,192-0.4S896,32,928,23.6
+	l32-8.3v282h-32c-32,0-96,0-160,0s-128,0-192,0s-128,0-192,0s-128,0-192,0s-128,0-160,0H0V101.3z"/>
+<path class="st1" d="M0,61.3L32,75c32,13.6,96,41,160,59s128,26.6,192,29.6s128,0.4,192-0.8s128-0.8,192-8.3s128-22.9,160-30.5
+	l32-7.7v181h-32c-32,0-96,0-160,0s-128,0-192,0s-128,0-192,0s-128,0-192,0s-128,0-160,0H0V61.3z"/>
+<path class="st2" d="M0,264.3l32-6.5c32-6.5,96-19.5,160-38s128-42.5,192-49.8c64-7.4,128,2,192,13.3S704,208,768,222
+	s128,28.6,160,36l32,7.3v32h-32c-32,0-96,0-160,0s-128,0-192,0s-128,0-192,0s-128,0-192,0s-128,0-160,0H0V264.3z"/>
+</svg> -->
+        </section>
       <div id="contact" class="contactSectie">
         <img class="petalsContact" id="blob6" src="assets/blob3.png" alt="blob6" />
         <img class="petalsContact" id="blob7" src="assets/blob4.png" alt="blob7" />
@@ -175,6 +231,13 @@
       <p>Designed and developed by Kevin Tran</p>
       <p>roy_kevin_tran@protonmail.com</p>
     </footer>
-   
+    <script>
+      const tween = KUTE.fromTo(
+        "#blobA1",
+        { path: "#blobA1" },
+        { path: "#blobA2" },
+        { repeat: 999, duration: 3000, yoyo: true }
+      ).start();
+    </script>
   </body>
 </html>
