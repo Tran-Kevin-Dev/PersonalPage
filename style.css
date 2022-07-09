@@ -748,3 +748,31 @@ footer p {
         font-size: 14px;
     }
 }
+
+
+/* XL bootstrap */
+
+@media screen and (max-width: 1080px) {
+    .mainBar {
+        height: 60vh;
+    }
+
+    .buttonSkills {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .buttonSkills a {
+        display: flex;
+        text-align: center;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+    }
+
+    .sectie5 {
+        height: 50vh;
+    }
+}
