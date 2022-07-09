@@ -174,14 +174,14 @@ nav {
 }
 
 #blob1 {
-    top: 2%;
-    left: 1%;
+    top: 1%;
+    left: 2%;
 }
 
 #blob2 {
     /* background-color: rebeccapurple; */
-    top: 55%;
-    left: 3%;
+    top: 52%;
+    left: 1%;
 }
 
 #blob3 {
@@ -223,6 +223,7 @@ main {
     padding-left: 5%;
     margin: 0;
     background-color: #AD92E8;
+    /* background-color: #5b4796; */
 
 }
 
@@ -264,6 +265,8 @@ main {
     padding: 20px;
     color: white;
     background-color: #8965D6;
+    /* background-color: #7f65cc; */
+    /* background-color: #25c558; */
 }
 
 /* Sectie 3 */
@@ -340,6 +343,7 @@ main {
     flex-direction: row;
     height: 100%;
     background-color: #AD92E8;
+    /* background-color: #5b4796; */
     /* #7487B2 */
 }
 
