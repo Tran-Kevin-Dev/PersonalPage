@@ -597,6 +597,11 @@ footer p {
         height: 200px;
     }
 
+    .linkIcon {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
     .titleText {
         font-size: 35px;
     }
