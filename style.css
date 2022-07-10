@@ -558,119 +558,44 @@ footer p {
 
 /* Media queries */
 
-@media screen and (max-width: 576px) {
+/* XL bootstrap */
 
-    .linkIconPosition {
-        width: 40%;
-    }
-
+@media screen and (max-width: 1200px) {
     .mainBar {
         height: 100%;
-    }
-}
-
-
-
-@media screen and (max-width: 768px) {
-    .titleText {
-        font-size: 40px;
-    }
-
-    #blob7 {
-        overflow-x: hidden;
-    }
-
-    .mainBar {
-        height: auto;
-    }
-
-    .navLinks a {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-
-    .linkIconPosition {
-        padding: 10px
-    }
-
-    #githubLogo {
-        margin-right: 25px;
-    }
-
-    /* Skills sectie */
-
-    #kevinDiploma {
-        width: 90%;
-    }
-
-    .rightHeaderSkills p {
-        margin-bottom: 50px;
     }
 
     .buttonSkills {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-end;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .buttonSkills a {
         display: flex;
+        text-align: center;
+        /* flex-direction: row; */
         justify-content: center;
         align-items: center;
-        padding: 5px;
-        width: 250px;
-        height: 80px;
+        width: 140px;
     }
-
-    .buttonSkills a:nth-child(2) {
-        margin: 20px 0 20px 0;
-    }
-
-    /* Development ervaring */
-
-    .backgroundColorProgram {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 15px;
-        border-radius: 50%;
-        width: 70px;
-    }
-
-    .row2Section3 img {
-        width: 50px;
-    }
-
-    /* Design Sectie */
-
-    .backgroundColorDesign {
-        padding: 20px;
-        width: 80px;
-    }
-
-    /* Werkervaring sectie */
 
     .sectie5 {
         height: 50vh;
     }
 
-    .sectie5Text {
-        text-align: center;
-    }
-
-    /* footer */
-
-    footer p {
-        text-align: center;
-        font-size: 14px;
-    }
 }
+
 
 /* LG bootstrap */
 
 @media screen and (max-width: 992px) {
+
+    .blob-motion {
+        width: 200px;
+        height: 200px;
+    }
+
     .titleText {
         font-size: 35px;
     }
@@ -764,35 +689,119 @@ footer p {
 
     footer p {
         text-align: center;
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
 
-/* XL bootstrap */
+/* Medium */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
+    .titleText {
+        font-size: 30px;
+    }
+
+    #blob7 {
+        overflow-x: hidden;
+    }
+
     .mainBar {
-        height: 100%;
+        height: auto;
+    }
+
+    .navLinks a {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+    .linkIconPosition {
+        padding: 10px
+    }
+
+    #githubLogo {
+        margin-right: 25px;
+    }
+
+    /* Skills sectie */
+
+    #kevinDiploma {
+        width: 90%;
+    }
+
+    .rightHeaderSkills p {
+        margin-bottom: 50px;
     }
 
     .buttonSkills {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
     }
 
     .buttonSkills a {
         display: flex;
-        text-align: center;
-        /* flex-direction: row; */
         justify-content: center;
         align-items: center;
-        width: 140px;
+        font-size: 16px;
+        padding: 5px;
+        width: 250px;
+        height: 80px;
     }
+
+    .buttonSkills a:nth-child(2) {
+        margin: 20px 0 20px 0;
+    }
+
+    /* Development ervaring */
+
+    .backgroundColorProgram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 50%;
+        width: 70px;
+    }
+
+    .row2Section3 img {
+        width: 50px;
+    }
+
+    /* Design Sectie */
+
+    .backgroundColorDesign {
+        padding: 20px;
+        width: 80px;
+    }
+
+    /* Werkervaring sectie */
 
     .sectie5 {
         height: 50vh;
     }
 
+    .sectie5Text {
+        text-align: center;
+    }
+
+    /* footer */
+
+    footer p {
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+/* small */
+@media screen and (max-width: 576px) {
+
+    .linkIconPosition {
+        width: 40%;
+    }
+
+    .mainBar {
+        height: 100%;
+    }
 }
