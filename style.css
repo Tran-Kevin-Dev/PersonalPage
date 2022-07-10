@@ -596,6 +596,9 @@ footer p {
         height: 80px;
     }
 
+    .leftHeader h1{
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -790,7 +793,7 @@ footer p {
     /* Design Sectie */
 
     .backgroundColorDesign {
-        padding: 8px;
+        padding: 12px;
         width: 80px;
     }
 
@@ -817,7 +820,7 @@ footer p {
 
     .linkIconPosition {
         width: 50%;
-        padding: 2px;
+        padding: 10px;
     }
 
     #githubLogo {
