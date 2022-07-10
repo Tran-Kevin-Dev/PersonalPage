@@ -645,7 +645,7 @@ footer p {
         align-items: center;
         font-size: 10px;
         padding: 5px;
-        width: 250px;
+        width: 200px;
         height: 80px;
     }
 
@@ -679,6 +679,7 @@ footer p {
 
     .sectie5 {
         height: 50vh;
+        padding: 5%;
     }
 
     .sectie5Text {
@@ -798,7 +799,12 @@ footer p {
 @media screen and (max-width: 576px) {
 
     .linkIconPosition {
-        width: 40%;
+        width: 5g0%;
+        padding: 2px;
+    }
+
+    #githubLogo {
+        margin-right: 5px;
     }
 
     .mainBar {
