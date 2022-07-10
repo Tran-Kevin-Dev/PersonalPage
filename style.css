@@ -752,7 +752,7 @@ footer p {
 
 /* XL bootstrap */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1200px) {
     .mainBar {
         height: 60vh;
     }
@@ -774,5 +774,9 @@ footer p {
 
     .sectie5 {
         height: 50vh;
+    }
+
+    .mainBar{
+        height: 60vh;
     }
 }
